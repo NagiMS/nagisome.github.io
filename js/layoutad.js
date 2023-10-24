@@ -30,27 +30,11 @@ function adtitle(){
 	$(".post-title").before('<div class="Title_text"><a>---Title---</a></div>');
 }
 
-//try{
-	//ad3()
-//}
-//catch(err2){
-	//console.log("ad3 Failed")
-//}
-//try{
-	//adtitle();
-//}
-//catch(err){
-	//console.log("adtitle Failed")
-//}
+
 function post_button(){
 	$(".post-button>a").text("点进去更精彩>>>")
 }
-//try{
-	//post_button();
-//}
-//catch(err){
-	//console.log("post_button Failed")
-//}
+
 
 function musicad(){
 	$(".site-subtitle").after('<br><audio class="hp_music" src="/music/コイバナ恋愛.mp3" volume="0.5" controlslist="nodownload noplaybackrate" loop="loop" controls="controls"></audio>' );
@@ -98,6 +82,9 @@ function right_guide(){
 function hide_guide(){
 	$(".left_guide_rp").css({"display":"none"});
 }
+
+
+
 function left_guide(){
 	var recents_posts=$(".links-of-recent-posts.motion-element").clone();
 	recents_posts.attr("class","left_guide_rp");
@@ -109,23 +96,30 @@ function left_guide(){
 
 	
 }
+function lg_interval(){
+	setInterval(function(){
+		display_lg=$(".left_guide_rp").css("visibility");
+		width= window.innerWidth;
+	},500)
+}
 
-t_n=1;
+
+
+
 function toggle_add(){
-	if ($(".left_guide_rp").css("display")!="none"){
-		$(".toggle").attr("onclick","toggle_back()");
-	}
+	$(".toggle").attr("onclick","toggle_back()");
 }
 function toggle_back(){
-	if (t_n==1){
-		$(".left_guide_rp").css({"display":"none"});
-		t_n-=1;
-	}else{
-		$(".left_guide_rp").css({"display":"inline"});
-		t_n+=1
+	if (display_lg==="visible" && width>700){
+		$(".left_guide_rp").css({"visibility":"hidden"});
+	}
+	if (display_lg==="hidden" && width>700){
+		$(".left_guide_rp").css({"visibility":"visible"});
 	}
 }
 
 left_guide();
+
+lg_interval();
 
 toggle_add();
