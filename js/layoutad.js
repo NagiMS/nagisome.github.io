@@ -82,3 +82,47 @@ try{
 catch(err){
 	console.log("musicad() Failed")
 }
+function right_guide(){
+	var recents_posts=$(".links-of-recent-posts.motion-element").clone();
+	recents_posts.attr("class","right_guide_rp")
+	recents_posts.children(".links-of-blogroll-title").attr("class","right_guide_title")
+	recents_posts.children(".links-of-recent-posts-list").attr("class","right_guide_posts_title")
+	$(".right-guide").after(recents_posts)
+	var search_btn=$(".site-nav-right").clone();
+	search_btn.attr("class","right_guide_search");
+	
+	$(".right_guide_title").before(search_btn);
+
+	
+}
+function hide_guide(){
+	$(".left_guide_rp").css({"display":"none"});
+}
+function left_guide(){
+	var recents_posts=$(".links-of-recent-posts.motion-element").clone();
+	recents_posts.attr("class","left_guide_rp");
+	recents_posts.children(".links-of-blogroll-title").attr("class","left_guide_title");
+	recents_posts.children(".links-of-recent-posts-list").attr("class","left_guide_posts_title");
+	$(".left-guide").after(recents_posts);
+	/*$(".left_guide_title").before('<a onclick="hide_guide()">收起</a>');*/
+	
+
+	
+}
+t_n=1
+function toggle_add(){
+	$(".toggle").attr("onclick","toggle_back()");
+}
+function toggle_back(){
+	if (t_n==1){
+		$(".left_guide_rp").css({"display":"none"});
+		t_n-=1;
+	}else{
+		$(".left_guide_rp").css({"display":"inline"});
+		t_n+=1
+	}
+}
+
+left_guide();
+
+toggle_add();
