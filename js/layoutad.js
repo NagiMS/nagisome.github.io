@@ -109,9 +109,12 @@ function left_guide(){
 
 	
 }
-t_n=1
+
+t_n=1;
 function toggle_add(){
-	$(".toggle").attr("onclick","toggle_back()");
+	if ($(".left_guide_rp").css("display")!="none"){
+		$(".toggle").attr("onclick","toggle_back()");
+	}
 }
 function toggle_back(){
 	if (t_n==1){
