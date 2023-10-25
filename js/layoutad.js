@@ -16,26 +16,6 @@ catch(err){
 }
 
 
-function ad3(){
-	$('.toggle.sidebar-toggle').before('<div class="siderbar_ad"><p>侧边栏</p></div>');
-	var ls3 =$(".siderbar_ad")
-	ls3.style.cssText=""
-	ls3.style.cssText="font-size:18px;\
-					color:	white;\
-					font-weight:bold;\
-					text-shadow: 2px 1px 2px black;"
-	
-}
-function adtitle(){
-	$(".post-title").before('<div class="Title_text"><a>---Title---</a></div>');
-}
-
-
-function post_button(){
-	$(".post-button>a").text("点进去更精彩>>>")
-}
-
-
 function musicad(){
 	$(".site-subtitle").after('<br><audio class="hp_music" src="/music/コイバナ恋愛.mp3" volume="0.5" controlslist="nodownload noplaybackrate" loop="loop" controls="controls"></audio>' );
 	$(".hp_music")[0].volume=0.5;
@@ -85,26 +65,15 @@ function hide_guide(){
 
 
 
+
 function left_guide(){
 	var recents_posts=$(".links-of-recent-posts.motion-element").clone();
 	recents_posts.attr("class","left_guide_rp");
 	recents_posts.children(".links-of-blogroll-title").attr("class","left_guide_title");
 	recents_posts.children(".links-of-recent-posts-list").attr("class","left_guide_posts_title");
 	$(".left-guide").after(recents_posts);
-	/*$(".left_guide_title").before('<a onclick="hide_guide()">收起</a>');*/
-	
-
-	
+	/*$(".left_guide_title").before('<a onclick="hide_guide()">收起</a>');*/	
 }
-function lg_interval(){
-	setInterval(function(){
-		display_lg=$(".left_guide_rp").css("visibility");
-		width= window.innerWidth;
-	},500)
-}
-
-
-
 
 function toggle_add(){
 	$(".toggle").attr("onclick","toggle_back()");
@@ -117,9 +86,28 @@ function toggle_back(){
 		$(".left_guide_rp").css({"visibility":"visible"});
 	}
 }
+function lg_btn(){
+	var lg_btn_n=1
+	$(".left-guide>a")[0].addEventListener("click",function(){
+		if($(".left-guide>a").text()==="收起"){
+			if (display_lg==="visible" && width>700){
+				$(".left_guide_rp").css({"visibility":"hidden"});
+				$(".left-guide>a").text("展开");
+				lg_btn_n-=1;
+			}
+		}else{
+			if (display_lg==="hidden" && width>700){
+				$(".left_guide_rp").css({"visibility":"visible"});
+				$(".left-guide>a").text("收起")
+				lg_btn_n+=1
+			}
+		}
+	})
+}
+lg_btn();
 
 left_guide();
 
 lg_interval();
 
-toggle_add();
+//toggle_add();
