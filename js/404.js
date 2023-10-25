@@ -5,7 +5,7 @@ function cd0(){
 function cd(){
 	num -= 1;
 	$(".t404_ct").text(num)	
-	setTimeout(cd0,000);
+	setTimeout(cd0,1000);
 	if(num == 0){
 		location.href = '/';
 	}		

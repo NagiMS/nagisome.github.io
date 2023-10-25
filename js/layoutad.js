@@ -6,8 +6,6 @@ function ad2(){
 					font-weight:bold;\
 					text-shadow: 2px 1px 2px black;"
 }
-
-
 try{
 	ad2()
 }
@@ -53,18 +51,9 @@ function right_guide(){
 	recents_posts.children(".links-of-recent-posts-list").attr("class","right_guide_posts_title")
 	$(".right-guide").after(recents_posts)
 	var search_btn=$(".site-nav-right").clone();
-	search_btn.attr("class","right_guide_search");
-	
+	search_btn.attr("class","right_guide_search");	
 	$(".right_guide_title").before(search_btn);
-
-	
 }
-function hide_guide(){
-	$(".left_guide_rp").css({"display":"none"});
-}
-
-
-
 
 function left_guide(){
 	var recents_posts=$(".links-of-recent-posts.motion-element").clone();
