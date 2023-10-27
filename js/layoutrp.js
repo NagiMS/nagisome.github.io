@@ -4,15 +4,15 @@ function lg_hide(){
     $(".left_guide_rp").css({"width":"5px"});
     $(".left_guide_rp").css({"visibility":"hidden"});
   }
-  function lg_display(){
-    $(".left-guide").css({"width":"80px"});
-    $(".left_guide_rp>li").css({"width":"80px"});
-    $(".left_guide_rp").css({"width":"150px"});
-    $(".left_guide_rp").css({"visibility":"visible"});
-  }
-   function lg_display(){
-    $(".left-guide").css({"width":"80px"});
-    $(".left_guide_rp>li").css({"width":"80px"});
-    $(".left_guide_rp").css({"width":"150px"});
-  }
+function lg_display(){
+  $(".left-guide").css({"width":"160px"});
+  $(".left_guide_rp>li").css({"width":"160px"});
+  $(".left_guide_rp").css({"width":"220px"});
+  $(".left_guide_rp").css({"visibility":"visible"});
+}
+function lg_display1(){
+  $(".left-guide").css({"width":"160px"});
+  $(".left_guide_rp>li").css({"width":"160px"});
+  $(".left_guide_rp").css({"width":"220px"});
+}
   

@@ -1,17 +1,4 @@
-function ad2(){
-	var ls1 =document.querySelector(".site-nav-toggle")
-	ls1.innerHTML+="<p>导航栏</p>"
-	ls1.style.cssText+="font-size:18px;\
-					color:	white;\
-					font-weight:bold;\
-					text-shadow: 2px 1px 2px black;"
-}
-try{
-	ad2()
-}
-catch(err){
-	console.log("ad2 Failed")
-}
+
 
 
 function musicad(){
