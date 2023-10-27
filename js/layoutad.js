@@ -1,89 +1,58 @@
-
-
-
 function musicad(){
-	$(".site-subtitle").after('<br><audio class="hp_music" src="/music/コイバナ恋愛.mp3" volume="0.5" controlslist="nodownload noplaybackrate" loop="loop" controls="controls"></audio>' );
-	$(".hp_music")[0].volume=0.5;
-	$(".site-subtitle").after('<div class="bars_music">'
-							+'<div class="bar_music"></div>'
-							+'<div class="bar_music"></div>'
-							+'<div class="bar_music"></div>'
-							+'<div class="bar_music"></div>'
-							+'<div class="bar_music"></div>'
-							+'<div class="bar_music"></div>'
-							+'<div class="bar_music"></div>'
-							+'<div class="bar_music"></div>'
-							+'<div class="bar_music"></div> '    
-							+'<div class="bar_music"></div></div>')
-	$(".hp_music")[0].addEventListener("play",function(){
-		$(".bar_music").css({"animation-play-state":"running"})
+	$(query_hpm_loc).after(musichtml);
+	$(query_hpm)[0].volume=0.5;
+	$(query_hpm_loc).after(mbhtml)
+	$(query_hpm)[0].addEventListener(anime_start,function(){
+		$(query_hpm_bar).css(css_anime_start)
 	})
-	$(".hp_music")[0].addEventListener("pause",function(){
-		$(".bar_music").css({"animation-play-state":"paused"})
+	$(query_hpm)[0].addEventListener(anime_stop,function(){
+		$(query_hpm_bar).css(css_anime_stop)
 	})
-	
 }
-
-
-try{
-	musicad();
-}
-catch(err){
-	console.log("musicad() Failed")
-}
-function right_guide(){
-	var recents_posts=$(".links-of-recent-posts.motion-element").clone();
-	recents_posts.attr("class","right_guide_rp")
-	recents_posts.children(".links-of-blogroll-title").attr("class","right_guide_title")
-	recents_posts.children(".links-of-recent-posts-list").attr("class","right_guide_posts_title")
-	$(".right-guide").after(recents_posts)
-	var search_btn=$(".site-nav-right").clone();
-	search_btn.attr("class","right_guide_search");	
-	$(".right_guide_title").before(search_btn);
-}
-
+musicad();
 function left_guide(){
-	var recents_posts=$(".links-of-recent-posts.motion-element").clone();
-	recents_posts.attr("class","left_guide_rp");
-	recents_posts.children(".links-of-blogroll-title").attr("class","left_guide_title");
-	recents_posts.children(".links-of-recent-posts-list").attr("class","left_guide_posts_title");
-	$(".left-guide").after(recents_posts);
-	/*$(".left_guide_title").before('<a onclick="hide_guide()">收起</a>');*/	
-}
-
-function toggle_add(){
-	$(".toggle").attr("onclick","toggle_back()");
-}
-function toggle_back(){
-	if (display_lg==="visible" && width>700){
-		$(".left_guide_rp").css({"visibility":"hidden"});
-	}
-	if (display_lg==="hidden" && width>700){
-		$(".left_guide_rp").css({"visibility":"visible"});
-	}
+	var recents_posts=$(cquery_rp).clone();
+	recents_posts.attr(classcss,lg_rp);
+	recents_posts.children(cquery_t).attr(classcss,lg_t);
+	recents_posts.children(cquery_rp_l).attr(classcss,lg_rp_t);
+	$(query_lg).after(recents_posts);
 }
 function lg_btn(){
-	var lg_btn_n=1
-	$(".left-guide>a")[0].addEventListener("click",function(){
-		if($(".left-guide>a").text()==="收起"){
-			if (display_lg==="visible" && width>700){
-				$(".left_guide_rp").css({"visibility":"hidden"});
-				$(".left-guide>a").text("展开");
-				lg_btn_n-=1;
+	$(query_lga)[0].addEventListener("click",function(){
+		if($(query_lga).text()===text_hide){
+			if (display_lg===display && width>lg_maxwidth){
+				$(query_lg_rp ).css(css_hide);
+				$(query_lga).text(text_display);
 			}
 		}else{
-			if (display_lg==="hidden" && width>700){
-				$(".left_guide_rp").css({"visibility":"visible"});
-				$(".left-guide>a").text("收起")
-				lg_btn_n+=1
+			if (display_lg===hide && width>lg_maxwidth){
+				$(query_lg_rp).css(css_display);
+				$(query_lga).text(text_hide);
 			}
 		}
 	})
 }
+function lg_hide(){
+    $(query_lg).css(hide_width);
+    $(query_lg_rp_li).css(hide_width);
+    $(query_lg_rp).css(hide_width);
+    $(query_lg_rp).css(css_hide);
+  }
+function lg_display(){
+  $(query_lg).css(css_width_lg);
+  $(query_lg_rp_li).css(css_width_lgrp_li);
+  $(query_lg_rp).css(css_width_lgrp);
+  $(query_lg_rp).css(css_display);
+}
+function lg_display1(){
+  $(query_lg).css(css_width_lg);
+  $(query_lg_rp_li).css(css_width_lgrp_li);
+  $(query_lg_rp).css(css_width_lgrp);
+}
+  
 lg_btn();
 
 left_guide();
 
 lg_interval();
-
-//toggle_add();
+  
