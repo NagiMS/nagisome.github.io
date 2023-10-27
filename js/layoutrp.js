@@ -1,4 +1,4 @@
-query_lg_rp = ".left_guide_rp"
+query_lg_rp=".left_guide_rp"
 query_lg_rp_li=".left_guide_rp>li"
 query_lg=".left-guide"
 query_lga=".left-guide>a"
