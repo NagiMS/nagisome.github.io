@@ -50,14 +50,14 @@ function lg_display1(){
   $(query_lg_rp_li).css(css_width_lgrp_li);
   $(query_lg_rp).css(css_width_lgrp);
 }
+/*
 function lg_search(){
 	var search_btn=$(cquery_s).clone();
 	search_btn.attr(classcss,lg_sb);
 	search_btn.children(cquery_s_trigger).attr(classcss,lg_sb_btn)
 	$(query_lg).after(search_btn);
-
 }
-lg_search(); 
+*/
 lg_btn();
 
 left_guide();
