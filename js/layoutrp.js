@@ -8,9 +8,9 @@ cquery_s_trigger=".popup-trigger"
 visibility="visibility"
 css_hide={"visibility":"hidden"};text_hide="收起";hide="hidden"
 css_display={"visibility":"visible"};text_display="展开";display="visible"
-css_width_lgrp_li= {"width":"100%"};hide_width= {"width":"5px"}
-css_width_lgrp= {"width":"22%"}
-css_width_lg={"width":"22%"}
+css_width_lgrp_li= {"width":"92%"};hide_width= {"width":"5px"}
+css_width_lgrp= {"width":"20%"}
+css_width_lg={"width":"20%"}
 lg_maxwidth=700
 cquery_rp=".links-of-recent-posts.motion-element"
 cquery_rp_l=".links-of-recent-posts-list"
