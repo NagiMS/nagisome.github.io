@@ -17,6 +17,7 @@ function left_guide(){
 	recents_posts.children(cquery_rp_l).attr(classcss,lg_rp_t);
 	$(query_lg).after(recents_posts);
 }
+
 function lg_btn(){
 	$(query_lga)[0].addEventListener("click",function(){
 		if($(query_lga).text()===text_hide){
@@ -49,7 +50,14 @@ function lg_display1(){
   $(query_lg_rp_li).css(css_width_lgrp_li);
   $(query_lg_rp).css(css_width_lgrp);
 }
-  
+function lg_search(){
+	var search_btn=$(cquery_s).clone();
+	search_btn.attr(classcss,lg_sb);
+	search_btn.children(cquery_s_trigger).attr(classcss,lg_sb_btn)
+	$(query_lg).after(search_btn);
+
+}
+lg_search(); 
 lg_btn();
 
 left_guide();
