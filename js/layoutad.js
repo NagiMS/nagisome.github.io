@@ -58,6 +58,11 @@ function lg_search(){
 	$(query_lg).after(search_btn);
 }
 */
+$(".hm_top_img")[0].addEventListener("animationend",function(){
+	$(".hm_top_img").css("animation","");
+});
+
+
 lg_btn();
 
 left_guide();
