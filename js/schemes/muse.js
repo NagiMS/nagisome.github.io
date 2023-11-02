@@ -58,3 +58,48 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('resize', updateFooterPosition);
   window.addEventListener('scroll', updateFooterPosition, { passive: true });
 });
+
+
+function lg_interval(){
+	setInterval(function(){
+	  display_lg=$(query_lg_rp).css(visibility);
+	  width= window.innerWidth;
+	  if (width<lg_maxwidth){
+		  $(query_lga).css(css_hide);  
+		  lg_hide();
+	  }else{
+      $(query_lga).css(css_display);  
+      lg_display1();
+      if (display_lg===hide){
+        if ($(query_lga).text()!=text_display){
+          $(query_lga).text(text_display);
+        }
+      }   
+	  }
+	},500)
+}
+function imgch1(n1,n2){
+    $(query_img+n1).css(dis_none);
+    $(query_img+n2).css(dis_block);
+	$(query_pu1+n1+query_pu2).css(dis_none);
+    $(query_pu1+n2+query_pu2).css(dis_block);
+	$(query_b_img).css(cssanime,b_img_anime);
+	n1=n2;
+    if(n2<5){
+		n2+=1;
+	}else{
+		n2=1;
+	} 
+	setTimeout(function(){imgch2(n1,n2)},time);
+}
+function imgch2(n1,n2){
+	setTimeout(function(){imgch1(n1,n2)},time);
+}
+
+
+n1=1;
+n2=2;
+time=5000;
+
+setTimeout(function(){imgch1(n1,n2)},time);
+

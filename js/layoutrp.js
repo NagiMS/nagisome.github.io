@@ -21,6 +21,12 @@ lg_rp="left_guide_rp"
 lg_t="left_guide_title"
 lg_rp_t="left_guide_posts_title"
 classcss="class"
+query_img=".img-"
+query_b_img=".hm_top_img";b_img_anime="slit-in-vertical .5s ease-in-out both"
+cssanime="animation"
+query_pu1=".post";query_pu2="-url>a"
+dis_none={"display":"none"};dis_block={"display":"block"}
+
 
 mbhtml='<div class="bars_music"><div class="bar_music"></div><div class="bar_music"></div><div class="bar_music"></div><div class="bar_music"></div><div class="bar_music"></div><div class="bar_music"></div><div class="bar_music"></div><div class="bar_music"></div><div class="bar_music"></div><div class="bar_music"></div></div>'
 musichtml='<br><audio class="hp_music" src="/music/コイバナ恋愛.mp3" volume="0.5" controlslist="nodownload noplaybackrate" loop="loop" controls="controls"></audio>'
