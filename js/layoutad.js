@@ -59,5 +59,5 @@ lg_btn();
 
 //left_guide();
 
-lg_interval();
+
   

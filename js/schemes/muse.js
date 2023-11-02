@@ -78,6 +78,7 @@ function lg_interval(){
 	  }
 	},500)
 }
+lg_interval();
 function imgch1(n1,n2){
     $(query_img+n1).css(dis_none);
     $(query_img+n2).css(dis_block);
