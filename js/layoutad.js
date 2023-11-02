@@ -57,7 +57,7 @@ $(".hm_top_img")[0].addEventListener("animationend",function(){
 
 lg_btn();
 
-left_guide();
+//left_guide();
 
 lg_interval();
   
