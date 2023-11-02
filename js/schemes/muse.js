@@ -130,9 +130,7 @@ function lg_display1(){
   $(query_lg_rp_li).css(css_width_lgrp_li);
   $(query_lg_rp).css(css_width_lgrp);
 }
-$(".hm_top_img")[0].addEventListener("animationend",function(){
-	$(".hm_top_img").css("animation","");
-});
+
 lg_btn();
 
 //left_guide();
