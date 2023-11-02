@@ -64,12 +64,15 @@ function lg_interval(){
 	setInterval(function(){
 	  display_lg=$(query_lg_rp).css(visibility);
 	  width= window.innerWidth;
+    
 	  if (width<lg_maxwidth){
 		  $(query_lga).css(css_hide);  
 		  lg_hide();
+    
 	  }else{
       $(query_lga).css(css_display);  
       lg_display1();
+    
       if (display_lg===hide){
         if ($(query_lga).text()!=text_display){
           $(query_lga).text(text_display);
