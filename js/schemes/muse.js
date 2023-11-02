@@ -89,7 +89,7 @@ function musicad(){
 		$(query_hpm_bar).css(css_anime_stop)
 	})
 }
-musicad();
+
 function left_guide(){
 	var recents_posts=$(cquery_rp).clone();
 	recents_posts.attr(classcss,lg_rp);
