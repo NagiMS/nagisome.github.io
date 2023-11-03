@@ -59,6 +59,8 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('scroll', updateFooterPosition, { passive: true });
 });
 
+function hideanime(){$(query_lg_rp ).attr(classcss,lg_rp+classanime_fi);}
+function displayanime(){$(query_lg_rp ).attr(classcss,lg_rp+classanime_fid);  }
 
 function lg_interval(){
 	setInterval(function(){
@@ -66,11 +68,13 @@ function lg_interval(){
 	  width= window.innerWidth;
     
 	  if (width<lg_maxwidth){
-		  $(query_lga).css(css_hide);  
+      $(query_lga).text(text_hide);
+		  hideanime(); 
 		  lg_hide();
     
 	  }else{
       $(query_lga).css(css_display);  
+      displayanime();
       lg_display1();
     
       if (display_lg===hide){
@@ -105,11 +109,13 @@ function lg_btn(){
 	$(query_lga)[0].addEventListener("click",function(){
 		if($(query_lga).text()===text_hide){
 			if (display_lg===display && width>lg_maxwidth){
+        hideanime();
 				$(query_lg_rp ).css(css_hide);
 				$(query_lga).text(text_display);
 			}
 		}else{
 			if (display_lg===hide && width>lg_maxwidth){
+        displayanime();
 				$(query_lg_rp).css(css_display);
 				$(query_lga).text(text_hide);
 			}
