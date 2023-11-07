@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://suxingchahui.fun/404.html</loc>
+    
+    <lastmod>2023-11-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://suxingchahui.fun/2023/10/26/%E3%80%90%E7%BD%AE%E9%A1%B6%E5%85%AC%E5%91%8A%E3%80%91%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/</loc>
     
     <lastmod>2023-11-06</lastmod>
@@ -218,15 +227,6 @@
   </url>
   
   <url>
-    <loc>https://suxingchahui.fun/404.html</loc>
-    
-    <lastmod>2023-10-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://suxingchahui.fun/about/index.html</loc>
     
     <lastmod>2023-10-06</lastmod>
@@ -263,20 +263,6 @@
 
   
   <url>
-    <loc>https://suxingchahui.fun/tags/MELLOW/</loc>
-    <lastmod>2023-11-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://suxingchahui.fun/tags/hook/</loc>
-    <lastmod>2023-11-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://suxingchahui.fun/tags/AsaProject/</loc>
     <lastmod>2023-11-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -285,6 +271,20 @@
   
   <url>
     <loc>https://suxingchahui.fun/tags/%E9%A2%9C%E8%89%BA%E7%A4%BE/</loc>
+    <lastmod>2023-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suxingchahui.fun/tags/MELLOW/</loc>
+    <lastmod>2023-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suxingchahui.fun/tags/hook/</loc>
     <lastmod>2023-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -333,13 +333,6 @@
   </url>
   
   <url>
-    <loc>https://suxingchahui.fun/tags/omegastar/</loc>
-    <lastmod>2023-11-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://suxingchahui.fun/tags/Navel/</loc>
     <lastmod>2023-11-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -348,6 +341,13 @@
   
   <url>
     <loc>https://suxingchahui.fun/tags/%E6%A9%98%E5%AD%90%E7%A4%BE/</loc>
+    <lastmod>2023-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suxingchahui.fun/tags/omegastar/</loc>
     <lastmod>2023-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -363,14 +363,14 @@
 
   
   <url>
-    <loc>https://suxingchahui.fun/categories/gal/</loc>
+    <loc>https://suxingchahui.fun/categories/%E5%9B%BE%E9%9B%86/</loc>
     <lastmod>2023-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://suxingchahui.fun/categories/%E5%9B%BE%E9%9B%86/</loc>
+    <loc>https://suxingchahui.fun/categories/gal/</loc>
     <lastmod>2023-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
