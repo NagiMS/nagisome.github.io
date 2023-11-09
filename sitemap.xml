@@ -216,20 +216,6 @@
   </url>
   
   <url>
-    <loc>https://suxingchahui.fun/tags/hook/</loc>
-    <lastmod>2023-11-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://suxingchahui.fun/tags/Cube/</loc>
-    <lastmod>2023-11-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://suxingchahui.fun/tags/AsaProject/</loc>
     <lastmod>2023-11-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -244,7 +230,21 @@
   </url>
   
   <url>
+    <loc>https://suxingchahui.fun/tags/Cube/</loc>
+    <lastmod>2023-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://suxingchahui.fun/tags/Escude/</loc>
+    <lastmod>2023-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suxingchahui.fun/tags/hook/</loc>
     <lastmod>2023-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
