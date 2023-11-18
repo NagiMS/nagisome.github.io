@@ -62,28 +62,27 @@ document.addEventListener('DOMContentLoaded', () => {
 function hideanime(){$(query_lg_rp ).attr(classcss,lg_rp+classanime_fi);}
 function displayanime(){$(query_lg_rp ).attr(classcss,lg_rp+classanime_fid);  }
 
+window.addEventListener("resize",lg_interval);
 function lg_interval(){
-	setInterval(function(){
-	  display_lg=$(query_lg_rp).css(visibility);
-	  width= window.innerWidth;
-    
-	  if (width<lg_maxwidth){
-      $(query_lga).text(text_hide);
-		  hideanime(); 
-		  lg_hide();
-    
-	  }else{
-      $(query_lga).css(css_display);  
-      displayanime();
-      lg_display1();
-    
-      if (display_lg===hide){
-        if ($(query_lga).text()!=text_display){
-          $(query_lga).text(text_display);
-        }
-      }   
-	  }
-	},500)
+  display_lg=$(query_lg_rp).css(visibility);
+  width= window.innerWidth;
+  if (width<lg_maxwidth){
+    $(query_lga).text(text_hide);
+    $(query_lga).css(css_hide);
+    hideanime(); 
+    lg_hide();
+  
+  }else{
+    $(query_lga).css(css_display);  
+    displayanime();
+    lg_display1();
+    if (display_lg===hide){
+      if ($(query_lga).text()!=text_display){
+        $(query_lga).text(text_display);
+      }
+    }   
+  }
+
 }
 function musicad(){
 	$(query_hpm_loc).after(musichtml);
@@ -96,29 +95,20 @@ function musicad(){
 		$(query_hpm_bar).css(css_anime_stop)
 	})
 }
-
-function left_guide(){
-	var recents_posts=$(cquery_rp).clone();
-	recents_posts.attr(classcss,lg_rp);
-	recents_posts.children(cquery_t).attr(classcss,lg_t);
-	recents_posts.children(cquery_rp_l).attr(classcss,lg_rp_t);
-	$(query_lg).after(recents_posts);
-}
-
 function lg_btn(){
 	$(query_lga)[0].addEventListener("click",function(){
 		if($(query_lga).text()===text_hide){
-			if (display_lg===display && width>lg_maxwidth){
-        hideanime();
-				$(query_lg_rp ).css(css_hide);
-				$(query_lga).text(text_display);
-			}
+    
+      hideanime();
+      $(query_lg_rp ).css(css_hide);
+      $(query_lga).text(text_display);
+			
 		}else{
-			if (display_lg===hide && width>lg_maxwidth){
-        displayanime();
-				$(query_lg_rp).css(css_display);
-				$(query_lga).text(text_hide);
-			}
+			
+      displayanime();
+      $(query_lg_rp).css(css_display);
+      $(query_lga).text(text_hide);
+			
 		}
 	})
 }
@@ -142,7 +132,7 @@ function lg_display1(){
 
 lg_btn();
 
-//left_guide();
+
 
 lg_interval();
 
