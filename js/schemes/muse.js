@@ -137,14 +137,12 @@ lg_btn();
 lg_interval();
 
 function imgch1(n1,n2){
-    $(query_img+n1).css(dis_none);
-    $(query_img+n2).css(dis_block);
-	$(query_pu1+n1+query_pu2).css(dis_none);
-    $(query_pu1+n2+query_pu2).css(dis_block);
-	$(query_b_img).css(cssanime,b_img_anime);
+  $(query_pu1+n1+query_pu3).css(dis_none);
+  $(query_pu1+n2+query_pu3).css(dis_block);
+  $(query_b_img).css(cssanime,b_img_anime);
 	n1=n2;
-    if(n2<5){
-		n2+=1;
+  if(n2<5){
+    n2+=1;
 	}else{
 		n2=1;
 	} 

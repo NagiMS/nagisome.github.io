@@ -27,7 +27,7 @@ classcss="class"
 query_img=".img-"
 query_b_img=".hm_top_img";b_img_anime="slit-in-vertical .5s ease-in-out both"
 cssanime="animation"
-query_pu1=".post";query_pu2="-url>a"
+query_pu1=".post";query_pu2="-url>a";query_pu3="-url"
 dis_none={"display":"none"};dis_block={"display":"block"}
 
 
