@@ -71,11 +71,12 @@ function lg_interval(){
     $(query_lga).css(css_hide);
     hideanime(); 
     lg_hide();
-  
+    $(query_postblock).css(mobilecss)
   }else{
     $(query_lga).css(css_display);  
     displayanime();
     lg_display1();
+    $(query_postblock).css(desktopcss)
     if (display_lg===hide){
       if ($(query_lga).text()!=text_display){
         $(query_lga).text(text_display);

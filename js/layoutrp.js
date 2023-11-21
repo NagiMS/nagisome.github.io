@@ -23,6 +23,13 @@ lg_rp_t="left_guide_posts_title"
 classanime_fid=" animated fadeInDown"
 classanime_fi=" animated fadeIn"
 
+query_postblock=".post-block"
+mobilecss={"padding":"5px"}
+desktopcss={"padding-top":"15px",
+    "padding-bottom":"30px",
+    "padding-left":"45px",
+    "padding-right":"45px"}
+
 classcss="class"
 query_img=".img-"
 query_b_img=".hm_top_img";b_img_anime="slit-in-vertical .5s ease-in-out both"
