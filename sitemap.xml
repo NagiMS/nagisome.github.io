@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://suxingchahui.fun/%E3%80%90%E7%BD%AE%E9%A1%B6%E5%85%AC%E5%91%8A%E3%80%91%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/</loc>
+    
+    <lastmod>2023-11-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://suxingchahui.fun/%E5%B7%A7%E5%85%8B%E7%94%9C%E6%81%8B2/</loc>
     
     <lastmod>2023-11-20</lastmod>
@@ -182,15 +191,6 @@
   </url>
   
   <url>
-    <loc>https://suxingchahui.fun/%E3%80%90%E7%BD%AE%E9%A1%B6%E5%85%AC%E5%91%8A%E3%80%91%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/</loc>
-    
-    <lastmod>2023-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://suxingchahui.fun/%E3%80%90E%E7%A4%BE%E6%96%B0%E4%BD%9C%E3%80%91%E6%88%98%E5%B7%AB%E5%A5%B3/</loc>
     
     <lastmod>2023-11-08</lastmod>
@@ -254,6 +254,13 @@
 
   
   <url>
+    <loc>https://suxingchahui.fun/tags/MELLOW/</loc>
+    <lastmod>2023-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://suxingchahui.fun/tags/AsaProject/</loc>
     <lastmod>2023-11-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -262,13 +269,6 @@
   
   <url>
     <loc>https://suxingchahui.fun/tags/%E9%A2%9C%E8%89%BA%E7%A4%BE/</loc>
-    <lastmod>2023-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://suxingchahui.fun/tags/MELLOW/</loc>
     <lastmod>2023-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -324,14 +324,14 @@
   </url>
   
   <url>
-    <loc>https://suxingchahui.fun/tags/Escude/</loc>
+    <loc>https://suxingchahui.fun/tags/Cube/</loc>
     <lastmod>2023-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://suxingchahui.fun/tags/Cube/</loc>
+    <loc>https://suxingchahui.fun/tags/Escude/</loc>
     <lastmod>2023-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -411,6 +411,13 @@
   
   <url>
     <loc>https://suxingchahui.fun/categories/%E5%9B%BE%E9%9B%86/</loc>
+    <lastmod>2023-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suxingchahui.fun/categories/%E5%85%AC%E5%91%8A/</loc>
     <lastmod>2023-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
