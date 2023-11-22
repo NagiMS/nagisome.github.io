@@ -62,6 +62,26 @@ document.addEventListener('DOMContentLoaded', () => {
 function hideanime(){$(query_lg_rp ).attr(classcss,lg_rp+classanime_fi);}
 function displayanime(){$(query_lg_rp ).attr(classcss,lg_rp+classanime_fid);  }
 
+window.addEventListener("load",mobile_ch);
+function mobile_ch(){
+  width_load= window.innerWidth;
+  if (width_load<lg_maxwidth){
+    $(query_tp_pu1).css(mobiletop_toppic_height);
+    $(query_tp_pu2).css(mobiletop_toppic_height);
+    $(query_tp_pu3).css(mobiletop_toppic_height);
+    $(query_tp_pu4).css(mobiletop_toppic_height);
+    $(query_tp_pu5).css(mobiletop_toppic_height);
+
+    $(query_tp_img1).css(mobiletop_toppic_rate);
+    $(query_tp_img2).css(mobiletop_toppic_rate);
+    $(query_tp_img3).css(mobiletop_toppic_rate);
+    $(query_tp_img4).css(mobiletop_toppic_rate);
+    $(query_tp_img5).css(mobiletop_toppic_rate);
+    
+    $(query_b_img).css(mobiletop_toppic_height);
+    $(query_postblock).css(mobilecss);
+  }
+}
 window.addEventListener("resize",lg_interval);
 function lg_interval(){
   display_lg=$(query_lg_rp).css(visibility);
