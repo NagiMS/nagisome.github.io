@@ -71,12 +71,38 @@ function lg_interval(){
     $(query_lga).css(css_hide);
     hideanime(); 
     lg_hide();
-    $(query_postblock).css(mobilecss)
+    $(query_tp_pu1).css(mobiletop_toppic_height);
+    $(query_tp_pu2).css(mobiletop_toppic_height);
+    $(query_tp_pu3).css(mobiletop_toppic_height);
+    $(query_tp_pu4).css(mobiletop_toppic_height);
+    $(query_tp_pu5).css(mobiletop_toppic_height);
+
+    $(query_tp_img1).css(mobiletop_toppic_rate);
+    $(query_tp_img2).css(mobiletop_toppic_rate);
+    $(query_tp_img3).css(mobiletop_toppic_rate);
+    $(query_tp_img4).css(mobiletop_toppic_rate);
+    $(query_tp_img5).css(mobiletop_toppic_rate);
+    
+    $(query_b_img).css(mobiletop_toppic_height);
+    $(query_postblock).css(mobilecss);
   }else{
     $(query_lga).css(css_display);  
     displayanime();
     lg_display1();
-    $(query_postblock).css(desktopcss)
+    $(query_tp_pu1).css(desktop_toppic_height);
+    $(query_tp_pu2).css(desktop_toppic_height);
+    $(query_tp_pu3).css(desktop_toppic_height);
+    $(query_tp_pu4).css(desktop_toppic_height);
+    $(query_tp_pu5).css(desktop_toppic_height);
+
+    $(query_tp_img1).css(desktop_toppic_rate);
+    $(query_tp_img2).css(desktop_toppic_rate);
+    $(query_tp_img3).css(desktop_toppic_rate);
+    $(query_tp_img4).css(desktop_toppic_rate);
+    $(query_tp_img5).css(desktop_toppic_rate);
+
+    $(query_toppic).css(desktop_toppic_height);
+    $(query_postblock).css(desktopcss);
     if (display_lg===hide){
       if ($(query_lga).text()!=text_display){
         $(query_lga).text(text_display);

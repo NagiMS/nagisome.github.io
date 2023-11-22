@@ -23,12 +23,33 @@ lg_rp_t="left_guide_posts_title"
 classanime_fid=" animated fadeInDown"
 classanime_fi=" animated fadeIn"
 
+query_tp_pu1=".post1-url"
+query_tp_pu2=".post2-url"
+query_tp_pu3=".post3-url"
+query_tp_pu4=".post4-url"
+query_tp_pu5=".post5-url"
+
+
+query_tp_img1=".img-1"
+query_tp_img2=".img-2"
+query_tp_img3=".img-3"
+query_tp_img4=".img-4"
+query_tp_img5=".img-5"
+
+
+
+
+query_toppic=".hm_top_img"
 query_postblock=".post-block"
 mobilecss={"padding":"5px"}
 desktopcss={"padding-top":"15px",
     "padding-bottom":"30px",
     "padding-left":"45px",
     "padding-right":"45px"}
+desktop_toppic_height={"height":"500px"}
+mobiletop_toppic_height={"height":"200px"}
+mobiletop_toppic_rate={"height": "72%"}
+desktop_toppic_rate={"height": "90%"}
 
 classcss="class"
 query_img=".img-"
@@ -37,10 +58,4 @@ cssanime="animation"
 query_pu1=".post";query_pu2="-url>a";query_pu3="-url"
 dis_none={"display":"none"};dis_block={"display":"block"}
 
-
-mbhtml='<div class="bars_music"><div class="bar_music"></div><div class="bar_music"></div><div class="bar_music"></div><div class="bar_music"></div><div class="bar_music"></div><div class="bar_music"></div><div class="bar_music"></div><div class="bar_music"></div><div class="bar_music"></div><div class="bar_music"></div></div>'
-musichtml='<br><audio class="hp_music" src="/music/コイバナ恋愛.mp3" volume="0.5" controlslist="nodownload noplaybackrate" loop="loop" controls="controls"></audio>'
-query_hpm=".hp_music";query_hpm_bar=".bar_music";query_hpm_loc=".site-subtitle"
-css_anime_stop={"animation-play-state":"paused"};anime_stop="pause"
-css_anime_start={"animation-play-state":"running"};anime_start="play"
 
