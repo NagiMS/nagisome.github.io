@@ -53,4 +53,4 @@ cssanime="animation"
 query_pu1=".post";query_pu2="-url>a";query_pu3="-url"
 dis_none={"display":"none"};dis_block={"display":"block"}
 
-
+query_block_archive=".block-img-archive"
