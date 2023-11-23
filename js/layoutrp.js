@@ -11,7 +11,7 @@ css_display={"visibility":"visible"};text_display="展开";display="visible"
 css_width_lgrp_li= {"width":"92%"};hide_width= {"width":"5px"}
 css_width_lgrp= {"width":"18%"}
 css_width_lg={"width":"18%"}
-lg_maxwidth=700
+lg_maxwidth=700;lg_maxwidth1=900
 cquery_rp=".links-of-recent-posts.motion-element"
 cquery_rp_l=".links-of-recent-posts-list"
 cquery_t=".links-of-blogroll-title"

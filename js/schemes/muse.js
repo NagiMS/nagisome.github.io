@@ -94,26 +94,40 @@ function mobile_vi(){
   
   $(query_b_img).css(mobiletop_toppic_height);
   $(query_postblock).css(mobilecss);  
-  $(query_block_archive).css(mobiletop_toppic_height)
+  $(query_block_archive).css(mobiletop_toppic_height) 
 }
 window.addEventListener("load",mobile_ch);
+function mobile1_vi(){
+  $(".sidebar").css({"right":"-320px"});
+}
+function desktop1_vi(){
+  $(".sidebar").css({"right":"0"});
+}
 function mobile_ch(){
   width_load= window.innerWidth;
   if (width_load<lg_maxwidth){
-    mobile_vi();
-    
+    mobile_vi(); 
+  }
+  if (width_load<lg_maxwidth1){
+    mobile1_vi();
   }
 }
 window.addEventListener("resize",lg_interval);
 function lg_interval(){
   display_lg=$(query_lg_rp).css(visibility);
   width= window.innerWidth;
+  if (width<lg_maxwidth1){
+    mobile1_vi();
+  }else{
+    desktop1_vi();
+  }
   if (width<lg_maxwidth){
     $(query_lga).text(text_hide);
     $(query_lga).css(css_hide);
     hideanime(); 
     lg_hide();
     mobile_vi();
+    
   }else{
     $(query_lga).css(css_display);  
     displayanime();
