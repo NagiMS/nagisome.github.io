@@ -28,16 +28,11 @@ query_tp_pu2=".post2-url"
 query_tp_pu3=".post3-url"
 query_tp_pu4=".post4-url"
 query_tp_pu5=".post5-url"
-
-
 query_tp_img1=".img-1"
 query_tp_img2=".img-2"
 query_tp_img3=".img-3"
 query_tp_img4=".img-4"
 query_tp_img5=".img-5"
-
-
-
 
 query_toppic=".hm_top_img"
 query_postblock=".post-block"
