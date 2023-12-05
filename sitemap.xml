@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://suxingchahui.fun/littleprincego/</loc>
+    
+    <lastmod>2023-12-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://suxingchahui.fun/Geminism/</loc>
     
     <lastmod>2023-11-27</lastmod>
@@ -301,7 +310,7 @@
 
   <url>
     <loc>https://suxingchahui.fun/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -309,189 +318,203 @@
   
   <url>
     <loc>https://suxingchahui.fun/tags/MELLOW/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/AsaProject/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/%E9%A2%9C%E8%89%BA%E7%A4%BE/</loc>
-    <lastmod>2023-11-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://suxingchahui.fun/tags/CraftWork/</loc>
-    <lastmod>2023-11-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://suxingchahui.fun/tags/%E5%89%8D%E7%BF%BC%E7%A4%BE/</loc>
-    <lastmod>2023-11-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://suxingchahui.fun/tags/frontwing/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/SMEE/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/%E7%B3%96%E5%8E%82/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suxingchahui.fun/tags/%E5%89%8D%E7%BF%BC%E7%A4%BE/</loc>
+    <lastmod>2023-12-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suxingchahui.fun/tags/frontwing/</loc>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/madosoft/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/%E7%AA%97%E7%A4%BE/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suxingchahui.fun/tags/CraftWork/</loc>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/hook/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suxingchahui.fun/tags/%E6%96%B9%E7%B3%96%E7%A4%BE/</loc>
+    <lastmod>2023-12-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suxingchahui.fun/tags/QuinceSoft/</loc>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/yuzusoft/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/%E6%9F%9A%E5%AD%90%E7%A4%BE/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/Cube/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/Escude/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/%E6%B5%B7%E8%B1%B9%E7%A4%BE/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/Azarashi/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/Asaproject/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/Navel/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/%E6%A9%98%E5%AD%90%E7%A4%BE/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/omegastar/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/Nitro/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/cabbagesoft/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/%E5%8D%B7%E5%BF%83%E8%8F%9C%E7%A4%BE/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/hibikiworks/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/cabbage/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/tags/darkone/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -500,21 +523,21 @@
   
   <url>
     <loc>https://suxingchahui.fun/categories/gal/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/categories/%E5%9B%BE%E9%9B%86/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suxingchahui.fun/categories/%E5%85%AC%E5%91%8A/</loc>
-    <lastmod>2023-11-27</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
