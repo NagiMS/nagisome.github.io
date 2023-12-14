@@ -2,11 +2,14 @@
 try{
   block= $(".pace-block")
   block[0].addEventListener("animationend",() => {
-    block.css("display","none")
+    block.css("display","none");
   });
+  
   Pace.on("done",function(){
     block.css("animation-play-state","running");
+    
   });
+  
 }
 catch(err){
   console.log();

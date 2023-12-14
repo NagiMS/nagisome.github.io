@@ -106,13 +106,14 @@ NexT.motion.middleWares = {
         complete: () => targets.classList.add('animated', post_block),
         deltaT  : '-=100'
       });
+     
       animate(coll_header, targets.querySelectorAll('.collection-header'));
       animate(post_header, targets.querySelectorAll('.post-header'));
       animate(post_body, targets.querySelectorAll('.post-body'));
     });
 
     animate(post_block, document.querySelectorAll('.pagination, .comments'));
-
+    
     return sequence;
   },
 
