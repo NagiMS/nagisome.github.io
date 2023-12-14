@@ -82,7 +82,7 @@ NexT.motion.middleWares = {
     }
     return [];
   },
-/*
+
   postList: function() {
     const sequence = [];
     const { post_block, post_header, post_body, coll_header } = CONFIG.motion.transition;
@@ -96,8 +96,8 @@ NexT.motion.middleWares = {
           deltaT  : '-=100'
         });
       });
-*/
     }
+    
 
 
     document.querySelectorAll('.post-block').forEach(targets => {
