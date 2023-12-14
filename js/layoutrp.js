@@ -8,10 +8,10 @@ cquery_s_trigger=".popup-trigger"
 visibility="visibility"
 css_hide={"visibility":"hidden"};text_hide="收起";hide="hidden"
 css_display={"visibility":"visible"};text_display="展开";display="visible"
-css_width_lgrp_li= {"width":"92%"};hide_width= {"width":"5px"}
+css_width_lgrp_li= {"width":"92%"};hide_width= {"width":"0px"}
 css_width_lgrp= {"width":"18%"}
 css_width_lg={"width":"18%"}
-lg_maxwidth=700;lg_maxwidth1=900
+lg_maxwidth=767;sb_maxwidth=900
 cquery_rp=".links-of-recent-posts.motion-element"
 cquery_rp_l=".links-of-recent-posts-list"
 cquery_t=".links-of-blogroll-title"
@@ -22,6 +22,10 @@ lg_t="left_guide_title"
 lg_rp_t="left_guide_posts_title"
 classanime_fid=" animated fadeInDown"
 classanime_fi=" animated fadeIn"
+
+css_hidesb={"right":"-320px"}
+css_displaysb={"right":"0"}
+query_sb=".sidebar"
 
 query_tp_pu1=".post1-url"
 query_tp_pu2=".post2-url"
@@ -36,7 +40,7 @@ query_tp_img5=".img-5"
 
 query_toppic=".hm_top_img"
 query_postblock=".post-block"
-mobilecss={"padding":"5px"}
+mobilecss={"padding":"10px"}
 desktopcss={"padding-top":"15px",
     "padding-bottom":"30px",
     "padding-left":"45px",

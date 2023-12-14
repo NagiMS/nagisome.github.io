@@ -98,17 +98,17 @@ function mobile_vi(){
 }
 window.addEventListener("load",mobile_ch);
 function mobile1_vi(){
-  $(".sidebar").css({"right":"-320px"});
+  $(query_sb).css(css_hidesb);
 }
 function desktop1_vi(){
-  $(".sidebar").css({"right":"0"});
+  $(query_sb).css(css_displaysb);
 }
 function mobile_ch(){
   width_load= window.innerWidth;
   if (width_load<lg_maxwidth){
     mobile_vi(); 
   }
-  if (width_load<lg_maxwidth1){
+  if (width_load<sb_maxwidth){
     mobile1_vi();
   }
 }
@@ -116,7 +116,7 @@ window.addEventListener("resize",lg_interval);
 function lg_interval(){
   display_lg=$(query_lg_rp).css(visibility);
   width= window.innerWidth;
-  if (width<lg_maxwidth1){
+  if (width<sb_maxwidth){
     mobile1_vi();
   }else{
     desktop1_vi();
