@@ -216,3 +216,18 @@ time=5000;
 
 setTimeout(function(){imgch1(n1,n2)},time);
 
+
+$(".post-body>p>a").each(function(){
+  $(this)[0].oncontextmenu = function(){
+    return false;
+  }
+  var href=$(this).attr("href")
+  $(this)[0].addEventListener("contextmenu",function(){  
+    navigator.clipboard.writeText(href).then(() => {
+      swal("已侦测到鼠标右键喵","已经帮你自动复制啦")
+    },() => {
+      swal("已侦测到鼠标右键喵","貌似失败了")
+    });
+  })
+})
+
