@@ -141,6 +141,126 @@ function lg_interval(){
   }
 
 }
+// 获取canvas元素
+const canvas = document.querySelector('.canvas-sakura');
+
+// 设置canvas画布的宽高为浏览器视口宽高
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+// 使用2d的绘图方式
+const ctx = canvas.getContext('2d');
+
+// 定义花瓣的数量
+const SAKURA_SUM = 220;
+// 花瓣数组
+const sakuraArray = [];
+
+/**
+ * 定义花瓣类
+ */
+class Sakura {
+    // 构造方法
+    constructor() {
+        // 随机生成花瓣的x, y坐标
+        this.x = Math.random() * canvas.width;
+        this.y = (Math.random() * canvas.height * 2) - canvas.height;
+        // 随机生成花瓣的宽高
+        this.width = Math.random() * 15 + 30;
+        this.height = Math.random() * 12 + 25;
+        // 随机透明度
+        this.opacity = this.width / 50;
+        // 设置一个随机数，后面实现旋转角度效果时会用到
+        this.rotate = Math.random();
+        // 速度初始化
+        this.xSpeed = Math.random() * 2 + 1;
+        this.ySpeed = Math.random() + 1.5;
+        this.rotateSpeed = Math.random() * 0.02;
+    }
+
+    // 绘制
+    draw() {
+        // 当花瓣超过canvas画布边界后，重新设置花瓣的坐标、速度、和转速
+        // 实现花瓣连续飘落的效果
+        if (this.x > canvas.width || this.y > canvas.height) {
+            this.x = -sakuraImg.width; // 刚好藏住
+            this.y = (Math.random() * canvas.height * 2) - canvas.height;
+            this.rotate = Math.random();
+            this.rotateSpeed = Math.random() * 0.02;
+            this.xSpeed = Math.random() * 2 + 0.5;
+            this.ySpeed = Math.random() + 1;
+        }
+
+        // ctx.globalAlpha 为 canvas 全局透明度设置基准值，实现绘制出来的花瓣具有透明度效果
+        ctx.globalAlpha = this.opacity;
+
+        // 随机旋转花瓣旋转角度，cos和sin的范围均为[-1, 1]，加入调整系数，保证花瓣变形可控
+        const cos = Math.cos(this.rotate) * [0.2, 0.6][Math.floor(Math.random() * 2)];
+        const sin = Math.sin(this.rotate) * [0.2, 0.6][Math.floor(Math.random() * 2)];
+
+        // 绘制花瓣，将canvas坐标系的原点设置在花瓣的左上角
+        ctx.setTransform(cos, sin, -sin, cos, this.x, this.y);
+        ctx.drawImage(
+            sakuraImg,
+            0,
+            0,
+            this.width * [0.6, 0.8][Math.floor(Math.random() * 2)],
+            this.height * [0.6,0.8][Math.floor(Math.random() * 2)]
+        );
+        ctx.setTransform(1, 0, 0, 1, 0, 0); // 重置canvas坐标系为初始状态
+    }
+
+    // 花瓣动画
+    animate() {
+        // 修改花瓣的属性，使花瓣位置发生变化
+        this.x += this.xSpeed + mouseX * 5;
+        this.y += this.ySpeed + mouseX * 2;
+        this.rotate += this.rotateSpeed;
+        // 绘制花瓣
+        this.draw();
+    }
+}
+
+/**
+ * 定义渲染方法
+ */
+function render() {
+    // 使用clearRect方法清除画布内的内容，以便下一次绘制新的内容
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    // 遍历花瓣数组，进行花瓣动画绘制
+    sakuraArray.forEach(sakura => sakura.animate());
+    // 使用requestAnimationFrame方法进行高效的动画渲染，保证在浏览器的刷新频率下去更新动画
+    window.requestAnimationFrame(render);
+}
+
+// 加载花瓣图片
+const sakuraImg = new Image();
+sakuraImg.src = '/image/sakura.png';
+// 等花瓣图片加载完毕，将数目为SAKURA_SUM的花瓣实例保存到数组中
+sakuraImg.addEventListener('load', () => {
+    for (let i = 0; i < SAKURA_SUM; i++) {
+        sakuraArray.push(new Sakura())
+    }
+    // 开始渲染花瓣动画
+    render();
+
+    // 监听浏览器窗口大小变化，重新设置canvas的宽高
+    window.addEventListener('resize', () => {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+    });
+});
+  // 定义鼠标、触屏事件监听回调函数
+  let mouseX = 0;
+  function touchHandler(e) {
+      // clinetX: 客户端区域的水平坐标 (与页面坐标不同)
+      // 修改鼠标在窗口中的位置，使花瓣在飘动时受到鼠标位置的影响
+      mouseX = (e.clientX || e.touches[0].clientX) / window.innerWidth;
+  }
+// 监听鼠标移动事件和触屏移动事件
+window.addEventListener('mousemove', touchHandler);
+window.addEventListener('touchmove', touchHandler);
+
 function musicad(){
 	$(query_hpm_loc).after(musichtml);
 	$(query_hpm)[0].volume=0.5;
