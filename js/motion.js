@@ -1,4 +1,4 @@
-/* global NexT, CONFIG */
+
 
 NexT.motion = {};
 
