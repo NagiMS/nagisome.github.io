@@ -503,13 +503,6 @@
   </url>
   
   <url>
-    <loc>https://suxingchahui.fun/tags/Cube/</loc>
-    <lastmod>2023-12-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://suxingchahui.fun/tags/yuzusoft/</loc>
     <lastmod>2023-12-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -518,6 +511,13 @@
   
   <url>
     <loc>https://suxingchahui.fun/tags/%E6%9F%9A%E5%AD%90%E7%A4%BE/</loc>
+    <lastmod>2023-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suxingchahui.fun/tags/Cube/</loc>
     <lastmod>2023-12-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -580,6 +580,13 @@
   </url>
   
   <url>
+    <loc>https://suxingchahui.fun/tags/omegastar/</loc>
+    <lastmod>2023-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://suxingchahui.fun/tags/cabbagesoft/</loc>
     <lastmod>2023-12-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -588,13 +595,6 @@
   
   <url>
     <loc>https://suxingchahui.fun/tags/%E5%8D%B7%E5%BF%83%E8%8F%9C%E7%A4%BE/</loc>
-    <lastmod>2023-12-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://suxingchahui.fun/tags/omegastar/</loc>
     <lastmod>2023-12-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -615,14 +615,14 @@
   </url>
   
   <url>
-    <loc>https://suxingchahui.fun/tags/cabbage/</loc>
+    <loc>https://suxingchahui.fun/tags/darkone/</loc>
     <lastmod>2023-12-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://suxingchahui.fun/tags/darkone/</loc>
+    <loc>https://suxingchahui.fun/tags/cabbage/</loc>
     <lastmod>2023-12-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
