@@ -355,9 +355,34 @@ if($(".post-nav-item-top-next-page").text()!==""){
     arrow: false
   })
 }
+if($(".brand").text()!==""){
+  tippy($(".brand")[0],{
+    content: "别碰我，让我转会儿🤪",
+    followCursor: "honrizontal",
+    arrow: false
+  })
+}
+if($(".site-subtitle").text()!==""){
+  tippy($(".site-subtitle")[0],{
+    content: "这是副标题，小朋友不要乱动😗",
+    followCursor: "honrizontal",
+    arrow: false
+
+  })
+}
+if($(".left-guide").text()!==""){
+  tippy($(".left-guide>a")[0],{
+    content: "我有两重身份😤，我可能可以收起或者展开",
+    followCursor: "honrizontal",
+    arrow: false
+  })
+}
 
 if($(".home-post-block").text()!==""){
   $(".home-post-block").each(function(){
+    $(this)[0].oncontextmenu = function(){
+      return false;
+    }
     tippy($(this)[0],{
       content: "别看了快点进来吧😋",
       animation: "fade",
@@ -370,7 +395,7 @@ if($(".home-post-block").text()!==""){
   })
 }
 if($(".hm_top_img").text()!==""){
-  $(".hm_top_img>div>img").each(function(){
+  $(".hm_top_img>div").each(function(){
     tippy($(this)[0],{
       content: "心动了吗，心动了就点吧😇",
       animation: "fade",
@@ -379,8 +404,9 @@ if($(".hm_top_img").text()!==""){
       followCursor: "honrizontal",
     })
     $(this).css({"cursor":"pointer"})
+    $(this).children("a").attr("title","")
     $(this)[0].addEventListener("click",function(){
-      location.href=$(this).siblings("a").attr("href");
+      location.href=$(this).children("a").attr("href");
     })
   })
 }
@@ -487,13 +513,19 @@ if($(".nohome-post-body").text()!==""){
   })
 }
 
-$(".left_guide_posts_title>.lg-item>a").each(function(){
+$(".left_guide_posts_title>.lg-item").each(function(){
+  $(this).css("cursor","pointer")
+  $(this).children("a").attr("title","")
+  $(this)[0].addEventListener("click",function(){
+    location.href=$(this).children("a").attr("href")
+  })
   tippy($(this)[0],{
     content: "看那么久干嘛不点吗？🤗",
     animation: "fade",
     arrow: false,
     placement: "top-end",
     delay: 500,
+    followCursor: "honrizontal"
   })
 })
 $(".sb-tag-cloud-tags>a").each(function(){
