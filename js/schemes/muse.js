@@ -338,19 +338,21 @@ if($(".posthead-notice").text()!==""){
   tippy($(".posthead-notice")[0],{
     content: "记得点我，看一下公告😤",
     animation: "fade",
-    arrow: true
+    arrow: false
   })
 }
 if($(".post-nav-item-top-prev-page").text()!==""){
   tippy($(".post-nav-item-top-prev-page>a")[0],{
     content: "点我进入下一页ο(=•ω＜=)ρ⌒☆",
-    animation: "fade"
+    animation: "fade",
+    arrow: false
   })
 }
 if($(".post-nav-item-top-next-page").text()!==""){
   tippy($(".post-nav-item-top-next-page>a")[0],{
     content: "点我返回上一页ο(=•ω＜=)ρ⌒☆",
-    animation: "fade"
+    animation: "fade",
+    arrow: false
   })
 }
 
@@ -358,10 +360,31 @@ if($(".home-post-block").text()!==""){
   $(".home-post-block").each(function(){
     tippy($(this)[0],{
       content: "别看了快点进来吧😋",
-      animation: "fade"
+      animation: "fade",
+      arrow: false,
+      duration: 1000,
+      placement: "right",
+      delay: 1000,
+      followCursor: "honzirital",
     })
   })
 }
+if($(".hm_top_img").text()!==""){
+  $(".hm_top_img>div>img").each(function(){
+    tippy($(this)[0],{
+      content: "心动了吗，心动了就点吧😇",
+      animation: "fade",
+      arrow: false,
+      delay: 400,
+      followCursor: "honrizontal",
+    })
+    $(this).css({"cursor":"pointer"})
+    $(this)[0].addEventListener("click",function(){
+      location.href=$(this).siblings("a").attr("href");
+    })
+  })
+}
+
 if($(".post-meta-item>time").text()!==""){
   time=$(".post-meta-item>time")
   time[0].onmouseover = function(){
@@ -374,45 +397,55 @@ if($(".post-meta-item>time").text()!==""){
     animation: "fade"
   })
 }
-if($(".post-title").text()!==""){
+if($(".nohome-post-block").text()!==""){
   $(".post-title").each(function(){
     tippy($(this)[0],{
       content: "这是标题，没有什么好看的😎",
-      animation: "fade"
+      animation: "fade",
+      arrow: false,
+      delay: 500
     })
   })
 }
 tippy($(".back-to-top")[0],{
   content: "点我返回顶端😁",
-  animation: "fade"
+  animation: "fade",
+  arrow: false
 })
 tippy($(".menu-item-home")[0],{
   content: "点我返回首页😁",
-  animation: "fade"
+  animation: "fade",
+  arrow: false
 })
 tippy($(".menu-item-about")[0],{
   content: "点我去到关于界面😁",
-  animation: "fade"
+  animation: "fade",
+  arrow: false
 })
 tippy($(".menu-item-archives")[0],{
   content: "所有好看的都在这里😁",
-  animation: "fade"
+  animation: "fade",
+  arrow: false
 })
 tippy($(".menu-item-log")[0],{
   content: "更新日志你要看吗😁",
-  animation: "fade"
+  animation: "fade",
+  arrow: false
 })
 tippy($(".menu-item-search")[0],{
   content: "点我全文搜索😁",
-  animation: "fade"
+  animation: "fade",
+  arrow: false
 })
 tippy($(".menu-item-tags")[0],{
   content: "点我去到标签界面😁",
-  animation: "fade"
+  animation: "fade",
+  arrow: false
 })
 tippy($(".menu-item-categories")[0],{
   content: "点我去到分类界面😁",
-  animation: "fade"
+  animation: "fade",
+  arrow: false
 })
 
 
@@ -420,7 +453,9 @@ if($(".post-tags").text()!==""){
   $(".post-tags").each(function(){
     tippy($(this)[0],{
       content: "这是标签，没有什么好看的😎",
-      animation: "fade"
+      animation: "fade",
+      arrow: false,
+      delay: 500,
     })
   })
 }
@@ -432,17 +467,22 @@ if($(".post-nav").text()!==""){
     tippy($(this)[0],{
       content: "点击快速翻页😎\
       下一页为"+$(this).attr("title"),
-      animation: "fade"
+      animation: "fade",
+      arrow: false
     })
     $(this).attr("title","")
   })
 }
 
-if($(".post-body").text()!==""){
-  $(".post-body>p>img").each(function(){
+if($(".nohome-post-body").text()!==""){
+  $(".nohome-post-body>p>img").each(function(){
     tippy($(this)[0],{
       content: "喜欢吗🥵，喜欢就多看点😍",
-      animation: "fade"
+      animation: "fade",
+      duration: 1000,
+      arrow: false,
+      placement: "left",
+      followCursor: "honrizontal",
     })
   })
 }
@@ -450,19 +490,25 @@ if($(".post-body").text()!==""){
 $(".left_guide_posts_title>.lg-item>a").each(function(){
   tippy($(this)[0],{
     content: "看那么久干嘛不点吗？🤗",
-    animation: "fade"
+    animation: "fade",
+    arrow: false,
+    placement: "top-end",
+    delay: 500,
   })
 })
 $(".sb-tag-cloud-tags>a").each(function(){
   tippy($(this)[0],{
     content: "按会社名分类😁",
-    animation: "fade"
+    animation: "fade",
+    arrow: false,
+    
   })
 })
 $(".b-contact-us").each(function(){
   tippy($(this)[0],{
     content: "这是群号，想加赶紧加，右键自动复制😁",
-    animation: "fade"
+    animation: "fade",
+    arrow: false
   })
   $(this)[0].oncontextmenu = function(){
     return false;
@@ -487,13 +533,14 @@ $(".b-contact-us").each(function(){
 })
 
 
-$(".post-body>p>a").each(function(){
+$(".nohome-post-body>p>a").each(function(){
   $(this)[0].oncontextmenu = function(){
     return false;
   }
   tippy($(this)[0],{
     content: "右键可以自动复制😊",
-    animation: "fade"
+    animation: "fade",
+    arrow: false,
   })
   var href=$(this).attr("href")
   $(this)[0].addEventListener("contextmenu",function(){  
