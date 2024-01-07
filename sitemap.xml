@@ -451,20 +451,6 @@
   </url>
   
   <url>
-    <loc>https://suxingchahui.fun/tags/clockup/</loc>
-    <lastmod>2024-01-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://suxingchahui.fun/tags/%E9%92%9F%E8%A1%A8%E7%A4%BE/</loc>
-    <lastmod>2024-01-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://suxingchahui.fun/tags/CraftWork/</loc>
     <lastmod>2024-01-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -473,6 +459,20 @@
   
   <url>
     <loc>https://suxingchahui.fun/tags/AsaProject/</loc>
+    <lastmod>2024-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suxingchahui.fun/tags/clockup/</loc>
+    <lastmod>2024-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suxingchahui.fun/tags/%E9%92%9F%E8%A1%A8%E7%A4%BE/</loc>
     <lastmod>2024-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

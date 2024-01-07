@@ -370,6 +370,14 @@ if($(".site-subtitle").text()!==""){
 
   })
 }
+if($(".b-site-statement").text()!==""){
+  tippy($(".b-site-statement")[0],{
+    content: "乖孩子别干坏事🤐",
+    followCursor: "honrizontal",
+    arrow: false
+
+  })
+}
 if($(".left-guide").text()!==""){
   tippy($(".left-guide>a")[0],{
     content: "我有两重身份😤，我可能可以收起或者展开",
