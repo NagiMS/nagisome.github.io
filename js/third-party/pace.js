@@ -15,9 +15,12 @@ try{
   block= $(".pace-block")
   block[0].addEventListener("animationend",() => {
     block.css("display","none");
+    /*
     $(".self-close").css("display","none");
+    */
     
   });
+  /*
   if($(".self-close").text()!==""){
     $(".self-close").css("display","none")
     $(".self-close")[0].addEventListener("click",function(){
@@ -28,6 +31,7 @@ try{
   }
   num=5
   setTimeout(cd0,1000)
+  */
   
   Pace.on("done",function(){
     block.css("animation-play-state","running");
