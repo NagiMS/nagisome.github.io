@@ -386,6 +386,7 @@ if($(".left-guide").text()!==""){
   })
 }
 
+
 if($(".home-post-block").text()!==""){
   $(".home-post-block").each(function(){
     $(this)[0].oncontextmenu = function(){
