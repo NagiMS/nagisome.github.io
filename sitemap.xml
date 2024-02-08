@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://suxingchahui.fun/2024-02-08-1/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://suxingchahui.fun/log/index.html</loc>
     
     <lastmod>2024-02-08</lastmod>
@@ -477,14 +486,14 @@
   </url>
   
   <url>
-    <loc>https://suxingchahui.fun/tags/darkone/</loc>
+    <loc>https://suxingchahui.fun/tags/Escude/</loc>
     <lastmod>2024-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://suxingchahui.fun/tags/Escude/</loc>
+    <loc>https://suxingchahui.fun/tags/darkone/</loc>
     <lastmod>2024-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -617,20 +626,6 @@
   </url>
   
   <url>
-    <loc>https://suxingchahui.fun/tags/cabbagesoft/</loc>
-    <lastmod>2024-02-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://suxingchahui.fun/tags/%E5%8D%B7%E5%BF%83%E8%8F%9C%E7%A4%BE/</loc>
-    <lastmod>2024-02-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://suxingchahui.fun/tags/SMEE/</loc>
     <lastmod>2024-02-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -646,6 +641,20 @@
   
   <url>
     <loc>https://suxingchahui.fun/tags/hibikiworks/</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suxingchahui.fun/tags/cabbagesoft/</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suxingchahui.fun/tags/%E5%8D%B7%E5%BF%83%E8%8F%9C%E7%A4%BE/</loc>
     <lastmod>2024-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -673,13 +682,6 @@
   </url>
   
   <url>
-    <loc>https://suxingchahui.fun/tags/WonderFool/</loc>
-    <lastmod>2024-02-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://suxingchahui.fun/tags/%E6%96%B9%E7%B3%96%E7%A4%BE/</loc>
     <lastmod>2024-02-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -688,6 +690,13 @@
   
   <url>
     <loc>https://suxingchahui.fun/tags/QuinceSoft/</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suxingchahui.fun/tags/WonderFool/</loc>
     <lastmod>2024-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
