@@ -1,14 +1,10 @@
-function cd0(){	
-	
-	setTimeout(cd,1000);
-}
-function cd(){
-	num -= 1;
+
+num=5;
+interval1=setInterval((e) => {
+	num-=1
 	$(".t404_ct").text(num)	
-	setTimeout(cd0,1000);
 	if(num == 0){
+		clearInterval()
 		location.href = '/';
-	}		
-}
-num=5
-setTimeout(cd0,1000)
+	}			
+}, 1000);
