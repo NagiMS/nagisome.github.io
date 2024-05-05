@@ -579,26 +579,18 @@ $(".nohome-post-body>p>a").each(function(){
     return false;
   }
   tippy($(this)[0],{
-    content: "右键可以自动复制😊",
+    content: "直接点击，跳转出来就是链接😊",
     animation: "fade",
     arrow: false,
   })
   var href=$(this).attr("href")
   $(this)[0].addEventListener("contextmenu",function(){  
-    navigator.clipboard.writeText(href).then(() => {
-      swal({
-        title: "已侦测到鼠标右键喵",
-        text: "(✿◕‿◕✿)已经帮你自动复制啦",
-        icon: "success",
-        button: "谢谢你自动复制侠!",
-      });
-    },() => {
-      swal({
-        title: "已侦测到鼠标右键喵",
-        text: "(＞︿＜)但是貌似失败了",
-        icon: "error",
-        button: "自动复制侠让你失望了!",
-      });
+    window.open(href);
+    swal({
+      title: "已侦测到鼠标右键喵",
+      text: "(✿◕‿◕✿)已经帮你自动跳转啦,跳转里面的文本就是链接😊",
+      icon: "success",
+      button: "谢谢你自动跳转侠!",
     });
   })
 })
